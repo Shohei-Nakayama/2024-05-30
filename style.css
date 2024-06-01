@@ -1,0 +1,48 @@
+*{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+.container{
+    width:1000px;
+    margin:70px auto;
+    text-align:center;
+}
+
+body{
+   font-size: 40px; 
+}
+
+h1{
+    font-size: 70px;
+}
+
+
+.under{
+background: linear-gradient( transparent 70% , #87cefa 30%);
+border-radius:30px;
+}
+
+
+input{
+    border-radius: 30px;
+    text-align: center;
+}
+
+.mb-50{
+    margin-bottom:50px;
+}
+
+button{
+    border-radius:25px;
+    background-color:cornflowerblue;
+    color:#fff;
+}
+
+#result{
+    width:500px;
+    margin: 100px auto;
+    border-bottom: double 6px #87cefa;
+}
