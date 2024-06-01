@@ -5,15 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>20240530</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        function addNumbers(){
-            var num1 = parseFloat(document.getElementById('num1').value);
-            var num2 = parseFloat(document.getElementById('num2').value);
-            var sum = num1 + mun2;
-            document.getElementById('result').innerHTML = '結果:' + sum;
-        }
-    </script>
+    <script src="main.js"></script>
 </head>
+
 <body>
     <h1>合計</h1>
     <input type="text" id="num1" placeholder="数字を入力">
@@ -21,7 +15,6 @@
 
     <button onclick="addNumbers()">合計金額を表示</button>
     <p id="result"></p>
-
 
 </body>
 </html>
